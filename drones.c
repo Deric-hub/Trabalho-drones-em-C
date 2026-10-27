@@ -12,6 +12,8 @@ void gerador_posicoes(int num_drones, float x[], float y[]){
     }
 }
 
+
+
 void chance_colisao(int num_drones, float x[], float y[], int distan_risco[], float distan_segura){
     for (int i = 0; i < num_drones; i++) {
         distan_risco[i] = 1; // Inicializa todos como seguros
